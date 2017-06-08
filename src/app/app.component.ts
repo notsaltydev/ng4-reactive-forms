@@ -32,7 +32,7 @@ export class AppComponent implements OnInit {
       );
     this.signupForm.patchValue({
       'userData': {
-        'usernam': 'Adam',
+        'username': 'Adam',
         'email': 'adam@test.com'
       },
       'gender': 'male',
